@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark shadow">
+          <a class="navbar-brand" href="#">Sashco Mistelbacher</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pg1.html">Hobbies</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="pg2.html">Work <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pg3.html">Robotics</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--body-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" background-3 col-md-2 d-none d-xl-block">
+                  <div class="font-button-container">
+                        <h4>Change text size</h4>
+                        <button type="button" class="btn btn-dark" id="small" onclick="changeTextSize()">Small</button>
+                        <button type="button" class="btn btn-dark" id="default" onclick="changeTextSize()">Default</button>
+                        <button type="button" class="btn btn-dark" id="large" onclick="changeTextSize()">Large</button>
+                    </div>
+                </div>
+                <div class=" content shadow col-md">
+                  <div class="title-container">
+                    <h1 class="title">Work</h1>
+                  </div>
+                  <div class="content-container">
+                    <h4>Location Support</h4>
+                    <p>I have worked part time in the <b>film industry</b> as Location Support.</p>
+                    <p>My job involves everything to do with the actual site being used for the production.</p>
+                    <p>I arrive early in the mornings to put out cones in the areas where the production company will be working.</p>
+                    <p>I stay until all production vehicles, such as generators, makeup trailers, craft services, etc arrive.</p>
+                    <h4>Craft Assistant</h4>
+                    <p>I will be starting work as a craft assistant for a t.v. show in <b>Hamilton</b>.</p>
+                    <p>Like locations, it has very <b>long hours</b>.</p>
+                    <p>I look forward to experiencing a new section of the film world.</p>
+                    <iframe class="mx-auto map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371911.7713678326!2d-80.21333211413214!3d43.26062761614771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c986c27de778f%3A0x2b6aee56d8df0e21!2sHamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1594833619884!5m2!1sen!2sca"  frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+                </div>
+                <div class=" links col-md-3">
+                  <img class="about-image mx-auto" src="https://i.imgur.com/oAn2DI6.jpg">
+                </div>
+                <div class=" background-3 col-md-1 d-none d-xl-block"></div>
+            </div>
+            <footer class="row">
+                <div class=" background-3 footer col">Created by Sashco Mistelbacher 2020 using CSS Bootstrap for CS50</div>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
